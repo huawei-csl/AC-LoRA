@@ -1,0 +1,5 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.index filter=lfs diff=lfs merge=lfs -text
+*.paths filter=lfs diff=lfs merge=lfs -text
+*.faiss filter=lfs diff=lfs merge=lfs -text
+data/Flan/db/index_*_part_* filter=lfs diff=lfs merge=lfs -text

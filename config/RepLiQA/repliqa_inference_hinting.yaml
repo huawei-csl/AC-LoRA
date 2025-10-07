@@ -1,0 +1,30 @@
+meta:
+  out_root_dir: results/experiments/
+  result_dir: RepLiQA/inference/aclora/hinting/
+  seed: 42
+model:
+  base_model: PATH_TO_MODEL
+  peft_config:
+    r: 64
+    lora_alpha: 64
+    bias: "none"
+  adapters:
+    adapters_dir: data/RepLiQA/LoRAs/
+    adapters: "*"
+data:
+  data_dir_root: data/
+  evaluation_data: RepLiQA/test/*_test.json
+retriever:
+  db:
+    db_path: data/RepLiQA/db/
+  params:
+    k: 3
+    fetch_k: 100
+    threshold: 0.0
+  permissions: "hint-test"
+  hinting: True
+  no_prediction: False
+evaluation:
+  eval_args:
+    do_sample: False
+    max_new_tokens: 1024

@@ -1,0 +1,49 @@
+meta:
+  out_root_dir: results/experiments/
+  result_dir: FLAN
+  seed: 42
+model:
+  base_model: PATH_TO_MODEL
+  peft_config:
+    r: 8
+    lora_alpha: 16
+    bias: "none"
+    target_modules:
+     - "v_proj"
+     - "q_proj"
+  adapters:
+    adapters_dir: data/Flan/LoRAs/
+    adapters: "*"
+data:
+  data_dir_root: data/
+  evaluation_data: Flan/test/*.json
+retriever:
+  db:
+    db_path: data/Flan/db
+  params:
+    k:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 10
+      - 15
+      - 20
+    fetch_k:
+      - 10
+      - 50
+      - 100
+      - 150
+      - 200
+    threshold:
+      - 0.0
+      - 0.1
+      - 0.2
+      - 0.3
+      - 0.5
+  permissions: "*"
+  no_prediction: True
+evaluation:
+  eval_args:
+    do_sample: False
+    max_new_tokens: 1024

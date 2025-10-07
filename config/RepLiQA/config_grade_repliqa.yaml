@@ -1,0 +1,9 @@
+meta:
+  out_root_dir: results/experiments/
+  result_dir: RepLiQA
+  seed: 42
+data:
+  data_dir_root: results/
+  evaluation_data: experiments/RepLiQA/inference/aclora/*.json
+grading:
+  type: grading

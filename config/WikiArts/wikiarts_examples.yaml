@@ -1,0 +1,29 @@
+meta:
+  out_root_dir: results/experiments/
+  result_dir: WikiArts
+  seed: 42
+model:
+  base_model: "CompVis/stable-diffusion-v1-4"
+  model_type: "multisd"
+  peft_config:
+    r: 16
+    lora_alpha: 16
+    bias: "none"
+  adapters:
+    adapters_dir: "data/WikiArts/LoRAs/"
+    adapters: "*"
+data:
+  data_dir_root: data/
+  evaluation_data: WikiArts/test/examples.json
+retriever:
+  db:
+    db_path: data/WikiArts/db
+  params:
+    k:
+      - 1
+      - 2
+      - 3
+    fetch_k: 100
+    threshold: 0.0
+  permissions: "*"
+  no_prediction: False

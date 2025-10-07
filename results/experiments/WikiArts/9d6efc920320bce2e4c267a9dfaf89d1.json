@@ -1,0 +1,648 @@
+[
+    {
+        "k": 3,
+        "fetch_k": 100,
+        "threshold": 0.0
+    },
+    {
+        "tag": "examples",
+        "idx": 0,
+        "input": "a dreamy forest landscape with soft lighting, in the style of a classical oil painting",
+        "retrieved_loras": [
+            "Realism",
+            "Symbolism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.33093297481536865,
+            0.33425775170326233,
+            0.3348093330860138
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 1,
+        "input": "a regal portrait of a woman in historical attire, with expressive brushstrokes and a muted palette",
+        "retrieved_loras": [
+            "Impressionism",
+            "Mannerism_Late_Renaissance",
+            "Realism"
+        ],
+        "gate": [
+            0.3180602192878723,
+            0.3394775390625,
+            0.3424622118473053
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 2,
+        "input": "a bustling market scene at sunset, rendered in vivid impressionist colors and loose texture",
+        "retrieved_loras": [
+            "Impressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 3,
+        "input": "a serene seascape with dramatic waves, painted with bold strokes and atmospheric perspective",
+        "retrieved_loras": [
+            "Impressionism",
+            "New_Realism",
+            "Romanticism"
+        ],
+        "gate": [
+            0.32850584387779236,
+            0.3354407250881195,
+            0.33605340123176575
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 4,
+        "input": "a whimsical cityscape at twilight, stylized with vibrant hues and surreal composition",
+        "retrieved_loras": [
+            "Pop_Art",
+            "Contemporary_Realism",
+            "New_Realism"
+        ],
+        "gate": [
+            0.3279304802417755,
+            0.3293452858924866,
+            0.3427242040634155
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 5,
+        "input": "a melancholic figure seated in a dim room, using chiaroscuro lighting and painterly textures",
+        "retrieved_loras": [
+            "New_Realism",
+            "Realism"
+        ],
+        "gate": [
+            0.4985032081604004,
+            0.5014967918395996
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 6,
+        "input": "a radiant floral still life, full of movement and expressive color blending",
+        "retrieved_loras": [
+            "Realism",
+            "Abstract_Expressionism",
+            "Fauvism"
+        ],
+        "gate": [
+            0.3295716941356659,
+            0.33058029413223267,
+            0.33984804153442383
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 7,
+        "input": "a tranquil countryside farm, painted in a nostalgic and rustic style",
+        "retrieved_loras": [
+            "Impressionism",
+            "New_Realism"
+        ],
+        "gate": [
+            0.5016587376594543,
+            0.49834123253822327
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 8,
+        "input": "a mythological scene with dynamic poses and classical lighting, as if painted on canvas",
+        "retrieved_loras": [
+            "Mannerism_Late_Renaissance"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 9,
+        "input": "a poetic interior with scattered objects, soft lighting and brushy edges",
+        "retrieved_loras": [
+            "Contemporary_Realism",
+            "New_Realism"
+        ],
+        "gate": [
+            0.4915534555912018,
+            0.5084465742111206
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 10,
+        "input": "a dramatic biblical tableau with emotional intensity and baroque lighting",
+        "retrieved_loras": [
+            "Baroque"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 11,
+        "input": "an abstract composition evoking emotion through color and form on canvas",
+        "retrieved_loras": [
+            "Expressionism",
+            "Abstract_Expressionism",
+            "Color_Field_Painting"
+        ],
+        "gate": [
+            0.3297715187072754,
+            0.33500936627388,
+            0.3352190852165222
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 12,
+        "input": "a nighttime urban scene with glowing lights, thick brushwork and rich contrast",
+        "retrieved_loras": [
+            "Contemporary_Realism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.4883323609828949,
+            0.5116676092147827
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 13,
+        "input": "a surreal dreamscape with floating figures, painted with soft gradients and rich symbolism",
+        "retrieved_loras": [
+            "Expressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 14,
+        "input": "an expressive animal portrait with energetic strokes and artistic exaggeration",
+        "retrieved_loras": [
+            "Expressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 15,
+        "input": "a majestic mountain range under shifting skies, depicted with painterly realism",
+        "retrieved_loras": [
+            "Symbolism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 16,
+        "input": "a peaceful domestic moment, rendered with soft colors and gentle brushwork",
+        "retrieved_loras": [
+            "Impressionism",
+            "Rococo"
+        ],
+        "gate": [
+            0.4983428120613098,
+            0.501657247543335
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 17,
+        "input": "a chaotic battlefield scene in historic style, filled with motion and texture",
+        "retrieved_loras": [
+            "Northern_Renaissance",
+            "Romanticism"
+        ],
+        "gate": [
+            0.483041375875473,
+            0.5169587135314941
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 18,
+        "input": "a dramatic close-up of hands in motion, with expressive detail and paint texture",
+        "retrieved_loras": [
+            "Realism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 19,
+        "input": "a symbolic tree in a field, with vibrant tones and impressionist atmosphere",
+        "retrieved_loras": [
+            "Post_Impressionism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.4943590760231018,
+            0.505640983581543
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 20,
+        "input": "a minimalistic modern portrait with bold colors and flat shapes on a painted surface",
+        "retrieved_loras": [
+            "Minimalism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 21,
+        "input": "a lively jazz performance scene, evoking rhythm through painterly abstraction",
+        "retrieved_loras": [
+            "Impressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 22,
+        "input": "a carnival at dusk, filled with color, noise, and painterly motion",
+        "retrieved_loras": [
+            "New_Realism",
+            "Naive_Art_Primitivism",
+            "Post_Impressionism"
+        ],
+        "gate": [
+            0.3322948217391968,
+            0.3328133225440979,
+            0.3348918557167053
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 23,
+        "input": "a wintry village scene with soft snow, warm lighting and a nostalgic painted style",
+        "retrieved_loras": [
+            "Expressionism",
+            "Realism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.3239823281764984,
+            0.3377334773540497,
+            0.3382841944694519
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 24,
+        "input": "a futuristic vision of a city, rendered in mixed painterly and surreal techniques",
+        "retrieved_loras": [
+            "New_Realism",
+            "Fauvism"
+        ],
+        "gate": [
+            0.49441707134246826,
+            0.5055829286575317
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 25,
+        "input": "a pastoral shepherd scene with earthy tones and flowing brushwork",
+        "retrieved_loras": [
+            "Post_Impressionism",
+            "Impressionism",
+            "Rococo"
+        ],
+        "gate": [
+            0.32520535588264465,
+            0.33398014307022095,
+            0.340814471244812
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 26,
+        "input": "an intimate cafe interior with characters in conversation, painterly lighting and style",
+        "retrieved_loras": [
+            "New_Realism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 27,
+        "input": "a haunting portrait with exaggerated features and moody paint effects",
+        "retrieved_loras": [
+            "Expressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 28,
+        "input": "a field of sunflowers under a stormy sky, textured brushstrokes and dramatic lighting",
+        "retrieved_loras": [
+            "Post_Impressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 29,
+        "input": "a painterly allegory of time and decay, filled with abstract and surreal elements",
+        "retrieved_loras": [
+            "Pop_Art",
+            "Minimalism",
+            "Expressionism"
+        ],
+        "gate": [
+            0.32047760486602783,
+            0.33916062116622925,
+            0.3403617739677429
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 30,
+        "input": "a historic naval battle, painted in a dramatic and turbulent style",
+        "retrieved_loras": [
+            "Romanticism",
+            "Ukiyo_e"
+        ],
+        "gate": [
+            0.49669885635375977,
+            0.5033011436462402
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 31,
+        "input": "a geometric abstraction representing chaos and order, textured like thick paint",
+        "retrieved_loras": [
+            "Abstract_Expressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 32,
+        "input": "a romantic garden with statues and fountains, glowing with lush painterly light",
+        "retrieved_loras": [
+            "Impressionism",
+            "Contemporary_Realism",
+            "Pointillism"
+        ],
+        "gate": [
+            0.3291834592819214,
+            0.33492088317871094,
+            0.3358956277370453
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 33,
+        "input": "a stormy beach with crashing waves, expressive brushwork and layered color",
+        "retrieved_loras": [
+            "Fauvism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.4957506060600281,
+            0.5042494535446167
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 34,
+        "input": "a peaceful reading nook by the window, full of warm color and painterly detail",
+        "retrieved_loras": [
+            "Rococo",
+            "Impressionism"
+        ],
+        "gate": [
+            0.48259225487709045,
+            0.5174077749252319
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 35,
+        "input": "a fantastical creature in a lush jungle, painted in a vibrant surrealist style",
+        "retrieved_loras": [
+            "Expressionism",
+            "Art_Nouveau",
+            "Romanticism"
+        ],
+        "gate": [
+            0.3275565207004547,
+            0.33116093277931213,
+            0.34128257632255554
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 36,
+        "input": "a whimsical village fair, full of motion, color, and painterly energy",
+        "retrieved_loras": [
+            "Art_Nouveau",
+            "Fauvism"
+        ],
+        "gate": [
+            0.4778277575969696,
+            0.5221722722053528
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 37,
+        "input": "a somber landscape at dusk, minimal detail but expressive brush and tone",
+        "retrieved_loras": [
+            "Impressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 38,
+        "input": "a theatrical masquerade ball scene, painted with opulent textures and color",
+        "retrieved_loras": [
+            "Cubism",
+            "Rococo"
+        ],
+        "gate": [
+            0.47287294268608093,
+            0.5271270275115967
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 39,
+        "input": "a contemplative figure in nature, atmospheric painting with rich mood",
+        "retrieved_loras": [
+            "Symbolism",
+            "Impressionism",
+            "Expressionism"
+        ],
+        "gate": [
+            0.3328350782394409,
+            0.33314958214759827,
+            0.3340153694152832
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 40,
+        "input": "a desert mirage scene with optical illusions and dreamlike paint techniques",
+        "retrieved_loras": [
+            "Expressionism",
+            "Contemporary_Realism",
+            "Symbolism"
+        ],
+        "gate": [
+            0.3232371509075165,
+            0.3362380862236023,
+            0.3405247926712036
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 41,
+        "input": "a portrait composed of fragmented geometric shapes, in a painted cubist style",
+        "retrieved_loras": [
+            "Cubism",
+            "Synthetic_Cubism",
+            "Analytical_Cubism"
+        ],
+        "gate": [
+            0.3312497138977051,
+            0.3332766592502594,
+            0.33547359704971313
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 42,
+        "input": "a painterly underwater scene with light beams and dreamlike aquatic creatures",
+        "retrieved_loras": [
+            "Contemporary_Realism",
+            "Romanticism"
+        ],
+        "gate": [
+            0.48430320620536804,
+            0.5156968235969543
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 43,
+        "input": "a sunlit orchard in bloom, full of life and flowing impressionist energy",
+        "retrieved_loras": [
+            "Post_Impressionism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.49974676966667175,
+            0.5002532601356506
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 44,
+        "input": "a reflective self-portrait with abstract emotional layering, on a painted surface",
+        "retrieved_loras": [
+            "Expressionism"
+        ],
+        "gate": [
+            1.0
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 45,
+        "input": "a medieval banquet hall scene with textured paint and warm firelight",
+        "retrieved_loras": [
+            "Romanticism",
+            "Early_Renaissance"
+        ],
+        "gate": [
+            0.49142736196517944,
+            0.5085725784301758
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 46,
+        "input": "a poetic abstraction of a storm, using layered paint and expressive color fields",
+        "retrieved_loras": [
+            "Abstract_Expressionism",
+            "Romanticism",
+            "Impressionism"
+        ],
+        "gate": [
+            0.31796401739120483,
+            0.3369534909725189,
+            0.34508246183395386
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 47,
+        "input": "a serene Buddhist temple on a mountain path, captured in peaceful brushwork",
+        "retrieved_loras": [
+            "Ukiyo_e",
+            "Impressionism",
+            "Symbolism"
+        ],
+        "gate": [
+            0.3149035573005676,
+            0.33648520708084106,
+            0.34861117601394653
+        ]
+    },
+    {
+        "tag": "examples",
+        "idx": 48,
+        "input": "a painterly interpretation of music, abstract forms and color rhythm on canvas",
+        "retrieved_loras": [
+            "Color_Field_Painting",
+            "Abstract_Expressionism"
+        ],
+        "gate": [
+            0.4979131519794464,
+            0.502086877822876
+        ]
+    }
+]

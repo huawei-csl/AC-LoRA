@@ -1,0 +1,7 @@
+*.pyc
+*.log
+wandb/
+.vscode/
+unsloth_compiled_cache/
+data/
+.cache/
