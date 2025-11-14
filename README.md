@@ -1,5 +1,5 @@
-[![arXiv](https://img.shields.io/badge/arXiv-2505.11557-b31b01.svg)](https://arxiv.org/abs/2505.11557)
-[![License](https://img.shields.io/badge/License-CC0_1.0_Universal-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+[![OpenReview](https://img.shields.io/badge/OpenReview-bV5is3iodg-b31b01.svg)](https://openreview.net/pdf?id=bV5is3iodg)
+[![License](https://img.shields.io/badge/License-CC0_1.0_Universal-darkgreen)](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 [![GitHub stars](https://img.shields.io/github/stars/huawei-csl/AC-LoRA?label=Stars&logo=github&logoColor=white&style=flat-square)](https://github.com/huawei-csl/AC-LoRA/stargazers)
 [![hf-space](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Huawei%20CSL-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/huawei-csl)
 
