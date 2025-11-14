@@ -173,16 +173,14 @@ LoRAs.
 
 ## 📚 How to Cite This Work
 
-If you find **AC-LORA** useful in your research or applications, please cite our <a href="https://arxiv.org/abs/2505.11557" target="_blank"><strong>paper</strong></a>:
+If you find **AC-LORA** useful in your research or applications, please cite our <a href="https://openreview.net/pdf?id=bV5is3iodg" target="_blank"><strong>paper</strong></a>:
 
 ```bibtex
-@misc{lazier2025acloraalmosttrainingfreeaccess,
-      title={AC-LoRA: (Almost) Training-Free Access Control-Aware Multi-Modal LLMs},
-      author={Lara Magdalena Lazier and Aritra Dhar and Vasilije Stambolic and Lukas Cavigelli},
-      year={2025},
-      eprint={2505.11557},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2505.11557},
+@inproceedings{lazier2025aclora,
+    title={{AC}-Lo{RA}: (Almost) Training-Free Access Control Aware Multi-Modal {LLM}s},
+    author={Lara Magdalena Lazier and Aritra Dhar and Vasilije Stambolic and Lukas Cavigelli},
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+    year={2025},
+    url={https://openreview.net/forum?id=bV5is3iodg}
 }
 ```
